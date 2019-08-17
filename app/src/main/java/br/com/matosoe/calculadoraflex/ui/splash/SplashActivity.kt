@@ -53,7 +53,7 @@ class SplashActivity : AppCompatActivity() {
         ivLogo.startAnimation(anim)
 
         Handler().postDelayed({
-            val nextScreen = Intent(this@SplashActivity,FormActivity::class.java)
+            val nextScreen = Intent(this@SplashActivity,LoginActivity::class.java)
             startActivity(nextScreen)
             finish()
         },TEMPO_AGUARDO_SPLASHSCREEN)
