@@ -10,11 +10,11 @@
     <item
             android:id="@+id/action_clear"
             app:showAsAction="never"
-            android:title="Clear Data">
+            android:title="Limpar dados">
     </item>
     <item
             android:id="@+id/action_logout"
             app:showAsAction="never"
-            android:title="Logout">
+            android:title="Sair">
     </item>
 </menu>
